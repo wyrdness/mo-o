@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/mo-o",
     "maintainers": [
       {
@@ -16,72 +16,149 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "mo-o",
     "name": "Mo'o",
-    "aliases": [],
-    "category": "|_MYTHOLOGICAL_CREATURE_|",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Moʻo", "language": "Hawaiian", "region": "Hawaii", "meaning": "Lizard; also used for succession or continuity — the name carries multiple layered meanings" },
+      { "name": "Moʻo wahine", "language": "Hawaiian", "region": "Hawaii", "meaning": "Lizard woman; female moʻo spirit" }
     ],
-    "status": "documented",
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Hawaiian water guardian / ancestral spirit",
+    "tags": [
+      "hawaiian",
+      "polynesian",
+      "water-spirit",
+      "shapeshifter",
+      "guardian",
+      "lizard",
+      "dragon",
+      "aumakua",
+      "indigenous",
+      "sacred"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Mo'o (also spelled moʻo) are supernatural beings in Hawaiian mythology that manifest as gigantic lizards or dragons, most commonly associated with freshwater streams, pools, and underground caves.",
-      "full": "Mo'o (also spelled moʻo) are supernatural beings in Hawaiian mythology that manifest as gigantic lizards or dragons, most commonly associated with freshwater streams, pools, and underground caves. **Mo'o are powerful 'aumākua (ancestral guardian spirits)** who protect water sources and can take various forms, from small lizards to massive reptilian creatures hundreds of feet long. In Hawaiian cosmology, mo'o represent the sacred connection between land ('āina) and water (wai), serving as guardians of precious freshwater resources. Some mo'o are benevolent protectors, while others are dangerous and must be respected or appeased. Many Hawaiian families claim mo'o as their 'aumākua, maintaining spiritual relationships that continue to the present day."
+      "summary": "Shapeshifting lizard spirits in Hawaiian mythology who serve as powerful ancestral guardians (ʻaumākua) of freshwater sources, manifesting as monstrous reptiles, tiny geckos, or humans, and revered as sacred protectors of the land and water.",
+      "full": "Moʻo are among the most significant supernatural beings in Hawaiian cosmology — shapeshifting water guardians who embody the sacred connection between land (ʻāina) and water (wai). They are most commonly female (moʻo wahine) and serve as ʻaumākua — ancestral guardian spirits who maintain ongoing protective relationships with specific Hawaiian families and communities. Moʻo are fundamentally associated with freshwater: streams, pools, fishponds, springs, and underground caves. In their most fearsome manifestation they appear as enormous reptiles of tremendous length; in benevolent form they may appear as small geckos or beautiful human women. The landscape of Hawaiʻi was understood as the petrified bodies of moʻo: ridgelines, rock formations, and stream beds represent moʻo whose physical forms became the land. Individual moʻo have distinct names, territories, and roles in Hawaiian oral tradition. Notable moʻo include Hauwahine, guardian of Kawainui Marsh on Oʻahu; Kihawahine, who inhabited Mokuhinia fishpond on Maui; Kalamainuʻu, associated with wrasse fishing; Mamala, known for surfing skill; and Kikipua, a man-eating moʻo defeated by the goddess Hiʻiaka. Moʻo appear throughout Hawaiian oral literature in relationships with the volcano goddess Pele and her sister Hiʻiaka, sometimes as adversaries, sometimes as allies. Many Hawaiian families today continue to maintain moʻo as ʻaumākua, maintaining spiritual relationships with specific water bodies identified as moʻo territories. This is a living tradition deserving respectful engagement."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Hawaiian word moʻo carries multiple interrelated meanings: lizard, gecko, succession, continuity, row or series. The connection between lizard-forms and succession/continuity reflects Hawaiian cosmological ideas about ancestral lineages and the perpetuation of spiritual relationships through generations.",
+      "meaning": "Lizard; succession; continuity; by extension, the ancestral lizard-guardian spirits",
+      "first_use": "Pre-contact Hawaiian oral tradition; first recorded in writing by Western scholars in the 19th century"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_MYTHOLOGICAL_CREATURE_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Ancestral guardian spirit",
+      "subtype": "Water guardian / shapeshifting reptile",
+      "variant": "Hawaiian / Polynesian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "taniwha", "name": "Taniwha", "relationship": "similar", "description": "Māori water guardian spirit; Polynesian cultural parallel" },
+      { "id": "naga", "name": "Naga", "relationship": "similar", "description": "South/Southeast Asian serpent deity and water guardian; cross-cultural parallel" },
+      { "id": "aumakua", "name": "ʻAumākua", "relationship": "superset", "description": "Hawaiian ancestral guardian spirits of which moʻo are a major type" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["green", "black", "dark", "variable depending on form"],
+      "features": [
+        { "feature": "Shapeshifting", "description": "Can manifest as enormous multi-hundred-foot reptiles, tiny geckos, or beautiful human women; form chosen based on context and intent", "frequency": "always" },
+        { "feature": "Giant reptilian form", "description": "Primary fearsome manifestation: a massive lizard or dragon hundreds of feet in length", "frequency": "common" },
+        { "feature": "Human form", "description": "Often takes the form of a beautiful human woman to interact with mortals", "frequency": "common" },
+        { "feature": "Gecko form", "description": "Small gecko manifestation; moʻo may appear as household geckos in their ʻaumākua role", "frequency": "common" },
+        { "feature": "Amphibious nature", "description": "Associated with both water and land; inhabit fishponds, streams, pools, and coastal waters", "frequency": "always" }
+      ],
+      "morphology": "Fundamentally a shapeshifter whose 'true' form is ambiguous; the giant reptile form represents power and danger, the gecko form represents the domestic guardian role, and the human form enables social interaction. When moʻo died, tradition held that their bodies became part of the physical landscape."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Full transformation between lizard (at any scale), gecko, human woman, and other forms", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Water and weather control", "description": "Moʻo could control freshwater sources, rainfall, and water-related phenomena within their territories", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Guardian protection", "description": "As ʻaumākua, moʻo provide protection to their associated families and communities, warning of danger and interceding with other spiritual forces", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Fishpond habitation", "description": "Moʻo were understood to inhabit traditional Hawaiian fishponds (loko iʻa), contributing to their fertility", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Man-eating (hostile moʻo)", "description": "Some moʻo, particularly Kikipua, are described as dangerous man-eaters requiring defeat by heroic figures", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["freshwater streams", "pools and ponds", "fishponds (loko iʻa)", "springs", "underground caves", "coastal waters"],
+      "diet": "Variable; benevolent moʻo do not prey on humans; hostile moʻo described as predating on people",
+      "patterns": [
+        "Associated with specific named water bodies across Hawaiʻi",
+        "Benevolent moʻo protect water sources and associated families",
+        "Hostile moʻo must be appeased or defeated by heroic figures (as in Hiʻiaka narratives)",
+        "Bodies of deceased moʻo become part of the physical landscape",
+        "Moʻo maintain territorial claims over specific streams, ponds, and coastal areas"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "All major Hawaiian islands. Moʻo are associated with specific named water bodies throughout the archipelago. Comparable water guardian traditions exist across Polynesia.",
+      "continents": ["Oceania"],
+      "countries": ["United States (Hawaii)"],
+      "regions": [
+        "Oʻahu — particularly Kawainui Marsh (windward) and Waialua",
+        "Maui — Mokuhinia fishpond, Kamalō Ridge",
+        "Molokaʻi — windward cliffs",
+        "Hawaii Island — various streams and pools",
+        "Kauaʻi — streams and coastal areas"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Kawainui Marsh, Kailua, Oʻahu",
+        "location": {
+          "description": "Kawainui Marsh, windward Oʻahu — the largest freshwater wetland in Hawaiʻi, home of the moʻo Hauwahine",
+          "country": "United States",
+          "region": "Oʻahu, Hawaii",
+          "coordinates": { "latitude": 21.39, "longitude": -157.74 }
+        },
+        "notes": "Traditional territory of Hauwahine, a prominent moʻo guardian"
+      },
+      {
+        "name": "Mokuhinia fishpond, Lāhainā, Maui",
+        "location": {
+          "description": "Mokuhinia fishpond (now largely filled), Lāhainā, Maui — home of the moʻo Kihawahine",
+          "country": "United States",
+          "region": "Maui, Hawaii",
+          "coordinates": { "latitude": 20.88, "longitude": -156.68 }
+        },
+        "notes": "Traditional territory of Kihawahine, a prominent moʻo associated with the Maui ruling chiefs"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1800-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Hawaiian oral tradition; first Western scholarly documentation in the 19th century"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-contact era (before c. 1778)", "description": "Moʻo were central figures in Hawaiian religious and social life, with active temple traditions and systematic ʻaumākua relationships" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern; moʻo relationships are ongoing and not season-dependent."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Moʻo are integral to the pre-contact Hawaiian cosmological system, embedded in the religious and genealogical traditions of the islands. The ʻaumākua system — by which specific ancestral spirits maintained protective relationships with family lines — placed moʻo at the center of freshwater management, fishing, and agricultural irrigation. The landscape of Hawaiʻi was genealogically mapped through moʻo and other spiritual entities.",
+      "earliest_accounts": "Pre-contact Hawaiian oral tradition; earliest Western documentation comes from 19th-century scholars and missionaries who collected Hawaiian oral literature.",
+      "folklore_connections": "Cognate water guardian traditions exist across Polynesia: the taniwha of Māori (New Zealand) tradition, the te kika of Tongan tradition, and various Marquesan and Samoan water spirit concepts. The moʻo represents the distinctly Hawaiian development of this broader Polynesian water guardian tradition."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1778-01-01", "event": "European contact with Hawaiʻi (Captain James Cook, 1778); Hawaiian oral traditions including moʻo lore begin to be documented by Western observers", "significance": "Beginning of written documentation of Hawaiian cosmology", "source": "Historical record" }
+    ],
+    "modern_era": "The moʻo tradition is a living part of Hawaiian culture. Many Hawaiian families today maintain moʻo as ʻaumākua, with continued spiritual relationships to specific water bodies. Hawaiian cultural revitalization movements include restoration of traditional fishponds (loko iʻa) and their associated moʻo traditions. The moʻo appears in contemporary Hawaiian literature, art, and environmental advocacy."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +169,80 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
+    "paranormal": [
+      {
+        "name": "Living ʻaumākua tradition",
+        "description": "Moʻo are understood within Hawaiian cosmology as genuinely existing ancestral guardian spirits with ongoing relationships with living Hawaiian families and communities. This is a living religious belief system, not a historical curiosity.",
+        "proponents": ["Hawaiian ʻaumākua practitioners", "Hawaiian cultural practitioners"],
+        "evidence_cited": ["Ongoing family traditions maintained across generations", "Specific named moʻo associated with documented locations and families"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Cultural memory of extinct Polynesian fauna",
+        "description": "Some researchers propose that moʻo descriptions preserve cultural memory of large lizards or monitor lizards that may have been present in the Pacific island chain or arrived with early Polynesian voyagers from Southeast Asia, where large varanid lizards are present.",
+        "proponents": ["Some comparative folklorists"],
+        "evidence_cited": ["Large varanid lizards (monitors) are known from Southeast Asia and some Pacific islands", "Polynesian voyagers had contact with areas where large lizards were present before Hawaiian settlement"]
+      }
+    ],
     "skeptical": []
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "ʻAumākua system: specific moʻo maintained as ancestral guardians by Hawaiian families",
+        "Traditional fishpond (loko iʻa) management understood as maintaining relationships with resident moʻo",
+        "Hiʻiaka narratives: the volcano goddess Peleʻs sister Hiʻiaka engages with numerous moʻo in her journey across the islands"
+      ],
+      "stories": [
+        "Hauwahine guards Kawainui Marsh on Oʻahu",
+        "Kihawahine inhabits Mokuhinia fishpond on Maui; associated with ruling Maui chiefs",
+        "Kalamainuʻu falls in love with a young chief; associated with wrasse fishing",
+        "Kikipua: a man-eating moʻo defeated by Hiʻiaka",
+        "Mamala: a moʻo known for surfing skill"
+      ],
+      "beliefs": "Moʻo embody the sacred interconnection between people, land, and water in Hawaiian cosmology. They are neither purely benevolent nor purely dangerous — their disposition depends on whether humans maintain proper relationships with the natural and spiritual world. Respect for freshwater sources is inseparable from respect for the moʻo who guard them."
+    },
+    "indigenous": {
+      "cultures": ["Native Hawaiian"],
+      "significance": "Moʻo are a central component of the pre-contact and contemporary Hawaiian religious and cultural system. They are ʻaumākua — ancestral guardians with ongoing relationships to living families — not merely mythological figures. The moʻo tradition is integrated with traditional environmental stewardship (loko iʻa fishpond management, freshwater conservation).",
+      "sensitivity_note": "Moʻo traditions are living elements of Native Hawaiian religious practice. Discussion of specific ʻaumākua relationships should respect that these are active spiritual relationships for many Hawaiian families, not historical artifacts. External interpretation should not override Hawaiian voices.",
+      "respect_guidelines": "Consult Native Hawaiian cultural practitioners and organizations before presenting moʻo traditions in public contexts. Do not appropriate moʻo imagery for commercial purposes without appropriate consultation. The location of specific moʻo territories may be considered sensitive information by associated families."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Hawaiian mythology collections documenting moʻo narratives (19th–20th century)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Hawaiian cultural revitalization: restoration of loko iʻa (fishponds) and their moʻo traditions",
+        "Contemporary Hawaiian art incorporating moʻo imagery"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "organizations": [
+      { "name": "Office of Hawaiian Affairs (OHA)", "url": "https://www.oha.org", "focus": "Advocacy and resources for Native Hawaiian cultural preservation, including ʻaumākua traditions" }
+    ],
+    "ongoing_studies": "Hawaiian studies scholars continue to document moʻo traditions in the context of Hawaiian cultural revitalization. Environmental and conservation projects involving traditional fishpond restoration are inherently connected to moʻo traditions."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-mooo", "type": "website", "title": "Moʻo", "url": "https://en.wikipedia.org/wiki/Mo%CA%BBo", "accessed": "2026-05-08" }
+  ]
 }
